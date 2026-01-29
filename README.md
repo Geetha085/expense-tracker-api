@@ -84,44 +84,6 @@ Django REST API (Server)
 
 ---
 
-## How to Run Locally
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/expense-tracker-api.git
-cd expense-tracker-api
-```
-
-2. Create and activate virtual environment
-
-```bash
-python -m venv venv
-venv\Scripts\activate   # Windows
-```
-
-3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run migrations
-
-```bash
-python manage.py migrate
-```
-
-5. Start the server
-
-```bash
-python manage.py runserver
-```
-
-Open: `http://127.0.0.1:8000/expenses/`
-
----
-
 ## Live Demo
 
 🔗 Live API URL: [https://expense-tracker-api-7wtq.onrender.com/expenses/]
